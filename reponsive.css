@@ -1,0 +1,71 @@
+@media (max-width:600px){
+    .header__nav 
+    {
+        display: none;
+    }
+    .menu__moblie i 
+    {
+        display: block;
+    }
+    .header__sub-nav 
+    {
+        background: #000;
+    }
+    .modal__content
+    {
+        width: 100%;
+        background: #fff;
+    }
+    .modal__close i 
+    {
+        color: #fff;
+        position: absolute;
+        right: 0;
+        top: 0%;
+        padding: 15px 20px 15px 20px;
+        font-size: 25px;
+        cursor: pointer;
+        color: red;
+        opacity: 1;
+        color: #000;
+    }
+    .modal__nav li a 
+    {
+        color: #000;
+    }
+    .modal__close i:hover 
+    {
+        color: #fff;
+    }
+    .header__sub-nav 
+    {
+        background: #fff;
+    }
+}
+@media (min-width:601px) and (max-width:1020px)
+{
+    .header__nav 
+    {
+        display: none;
+    }
+    .menu__moblie i 
+    {
+        display: block;
+    }
+    .header__sub-nav 
+    {
+        background: #000;
+    }
+}
+@media (min-width:1200px){
+    #slider 
+    {
+        background-repeat: no-repeat;
+        height: 700px;
+        background: url("asset/intro-bg.png");
+        position: relative;
+        clip-path: polygon(0% 0%, 0% 100%, 0 96%, 0 65%, 0 77%, 100% 99%, 30% 100%, 100% 99%, 100% 0%);
+        margin-top: 82px;
+               background-size: cover;
+    }
+}

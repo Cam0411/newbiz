@@ -1,0 +1,157 @@
+#header
+{
+    height: 82px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 1;
+ }
+ .header__flex 
+ {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 82px;
+
+ }
+ .heading__logo .img 
+ {
+     width: 156px;
+     padding: 20px;
+ }
+ .header__nav
+ {
+     padding: 20px;
+ }
+ .header__nav li 
+ {
+     display: inline-block;
+     padding: 15px;
+     font-size: 15px;
+     position: relative;
+ }
+ .header__nav li i 
+ {
+     margin-left: 5px;
+ }
+ a.color
+ {
+     color: #007bff !important;
+ }
+ .header__nav li a 
+ {
+     text-decoration: none;
+     color: #004269;
+ }
+ .header__nav  li a:hover 
+ {
+     color: #007bff;
+ }
+ .header__nav li:hover .header__sub-nav
+ {
+     display: block;
+ }
+ .header__sub-nav 
+ {
+     position: absolute;
+     width: 150px;
+     top: 90%;
+     left: 0;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     display: none;
+     animation: fadeup linear 0.2s;
+     transform-origin: left top;
+     z-index: 999;
+     background: #fff;
+ }
+ .header__sub-nav li a:hover 
+ {
+     display: block;
+ }
+ .menu__moblie i 
+ {
+     font-size: 30px;
+     padding: 20px;
+     margin-top: -5px;
+     display: none;
+     cursor: pointer;
+     position: absolute;
+     right: 0;
+    top: 11%;
+ }
+ .modal
+ {
+     background: #0004;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 1;
+     display: none;
+     animation: fadeLeft linear 0.2s;
+ }
+ .modal__content 
+ {
+     width: 50%;
+     height: 100%;
+     background: #0004;
+     position: relative;
+     animation: fadeLeft2 linear 0.2s;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .modal__close i 
+ {
+     color: #fff;
+     position: absolute;
+     right: 0;
+     top: 0%;
+     padding: 15px 20px 15px 20px;
+     font-size: 25px;
+     cursor: pointer;
+   
+     opacity: 1;
+ }
+ .modal__close i:hover 
+ {
+     background: #fc0330;
+ }
+ .modal.open 
+ {
+     display: flex;
+ }
+ .modal__nav li 
+ {
+     list-style: none;
+     color: #fff;
+     padding: 10px;
+     position: relative;
+ }
+ .modal__nav li a 
+ {
+     color: #fff;
+     text-decoration: none;
+ }
+ .modal__nav li:hover .header__sub-nav
+ {
+  display: block;
+ }
+
+#slider 
+{
+
+    background: url("asset/intro-bg.png");
+    position: relative;
+    background-repeat: no-repeat;
+    height: 700px;
+    background: url("asset/intro-bg.png");
+    position: relative;
+    clip-path: polygon(0% 0%, 0% 100%, 0 96%, 0 65%, 0 77%, 100% 99%, 30% 100%, 100% 99%, 100% 0%);
+    margin-top: 82px;
+    margin-top: 82px;
+}
