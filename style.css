@@ -57,7 +57,7 @@
  .header__sub-nav 
  {
      position: absolute;
-     width: 150px;
+     width: 170px;
      top: 90%;
      left: 0;
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -151,7 +151,75 @@
     height: 700px;
     background: url("asset/intro-bg.png");
     position: relative;
-    clip-path: polygon(0% 0%, 0% 100%, 0 96%, 0 65%, 0 77%, 100% 99%, 30% 100%, 100% 99%, 100% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 0 100%, 100% 84%, 100% 100%, 0 100%, 100% 100%, 100% 0%);
     margin-top: 82px;
     margin-top: 82px;
+
+}
+.slider__flex 
+{
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider__flex img 
+{
+    width: 600px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    padding: 20px;
+}
+.slider__flex-all-txt 
+{
+    padding: 20px;
+}
+.slider__heading
+{
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.slider__nav li
+{
+   display: inline-block;
+   list-style: none;
+   color: #fff;
+   padding: 12px 25px 12px 25px ;
+   background:#007bff;
+   border-radius: 35px;
+   margin-right: 20px;
+   font-weight: 700;
+   transition: 0.4s;
+   cursor: pointer;
+}
+.slider__nav li:nth-child(1):hover
+{
+    background: none;
+    border: 2px solid #fff;
+}
+.slider__nav li:nth-child(2)
+{
+    background: none;
+    border: 2px solid #fff;
+}
+.slider__nav li:nth-child(2):hover 
+{
+    background: #007bff;
+    border: 2px solid #007bff;
+}
+.color 
+{
+    color: #007bff;
+    font-weight: 900;
+}
+@keyframes up-down
+{
+   0%{
+       transform: translateY(10px);
+   }
+   100%{
+       transform: translateY(-10px);
+   }
 }
