@@ -573,8 +573,9 @@
     height: 210px;
     padding: 20px;
      position: absolute;
-    top: 9%;
+    top: 8%;
     left: 8%;
+
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -584,7 +585,7 @@
     animation: fadeUp3 ease-in-out 0.2s;
     opacity: 0.7;
    cursor: pointer;
-   z-index: 1;
+
 }
 .content__8-info 
 {
@@ -615,4 +616,122 @@
 {
     height: 500px;
     background: #ecf5ff;
+}
+.content__9-flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+}
+.content__9-all-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.content__9-box 
+{
+    width: 250px;
+    height: 100px;
+    border: 1px solid #ecf5ff;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.content__9-box:hover img 
+{
+    transform: scale(1.2);
+}
+.content__9-box img 
+{
+    width: 100px;
+    transition: 0.4s;
+}
+#content__10 
+{
+    height: 500px;
+}
+.content__10-flex 
+{
+    height: 500px;
+
+}
+.content__heading-10 
+{
+    margin-top: 40px;
+}
+#content__10  iframe 
+{
+    padding: 20px;
+}
+.cotent__contact-10-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__box-10-nav li 
+{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 0px;
+    font-size: 15px;
+}
+.content__box-10-nav li i 
+{
+    color: #558aff;
+    margin-right: 5px;
+}
+.form__box-txt 
+{
+    width: 45%;
+    padding: 8px 14px;
+    margin-bottom: 20px;
+    outline-color: #007bff;
+}
+.form__box-txt-2 
+{
+    width: 91%;
+    padding: 8px 14px;
+    margin-bottom: 20px;
+    outline-color: #007bff;
+}
+.form__box-txt-3 
+{
+    width: 91%;
+    padding: 8px 14px;
+    margin-bottom: 20px;
+    height: 70px;
+    outline-color: #007bff;
+}
+
+.form__box-btn 
+{
+    background: none;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 35%;
+    font-weight: 700;
+   
+    -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+}
+.form__box-btn:hover 
+{
+    background: #004a99;
 }
