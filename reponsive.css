@@ -316,7 +316,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
 }
 .content__heading-5 
 {
@@ -327,7 +327,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+ 
 }
 .content__box-5 
 {
